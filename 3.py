@@ -63,9 +63,11 @@ def calculation(bp):
         return net_salary
     
 def payslip(name,code,bp,net_salary):
-    print(name)
-    print(code)
-    print(net_salary)
+    print("SALARY SLIP")
+    print("Employee name: ",name)
+    print("Employee code: ",code)
+    print("Basic pay: ",bp)
+    print("Net Salary: ",net_salary)
 
 bp,code,name = read()
 net_salary = calculation(bp)
